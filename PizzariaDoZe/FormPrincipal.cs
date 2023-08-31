@@ -9,6 +9,7 @@ namespace PizzariaDoZe
         FormValores formValores = new();
         FormProduto formProduto = new();
         FormLogin formLogin = new();
+        FormConfiguracoes formConfiguracoes = new();
 
         public FormPrincipal()
         {
@@ -49,6 +50,18 @@ namespace PizzariaDoZe
         private void BtnInicio_Click(object sender, EventArgs e)
         {
             formLogin.ShowDialog();
+        }
+
+        private void BtnConfiguracoes_Click(object sender, EventArgs e)
+        {
+            formConfiguracoes = new()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
+            _ = formConfiguracoes.ShowDialog();
+            // remove todos os controles e recria a tela, aplicando assim o novo idioma
+            Controls.Clear();
+            InitializeComponent();
         }
     }
 }

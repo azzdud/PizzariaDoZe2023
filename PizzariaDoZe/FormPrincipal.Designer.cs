@@ -37,6 +37,7 @@
             BtnValores = new Button();
             BtnProdutos = new Button();
             userControlFuncoes1 = new UserControlFuncoes();
+            BtnConfiguracoes = new Button();
             SuspendLayout();
             // 
             // BtnInicio
@@ -125,12 +126,23 @@
             userControlFuncoes1.Size = new Size(532, 118);
             userControlFuncoes1.TabIndex = 1;
             // 
+            // BtnConfiguracoes
+            // 
+            BtnConfiguracoes.Location = new Point(957, 12);
+            BtnConfiguracoes.Name = "BtnConfiguracoes";
+            BtnConfiguracoes.Size = new Size(76, 47);
+            BtnConfiguracoes.TabIndex = 0;
+            BtnConfiguracoes.Text = "Config";
+            BtnConfiguracoes.UseVisualStyleBackColor = true;
+            BtnConfiguracoes.Click += BtnConfiguracoes_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1045, 562);
             Controls.Add(userControlFuncoes1);
+            Controls.Add(BtnConfiguracoes);
             Controls.Add(BtnProdutos);
             Controls.Add(BtnIngredientes);
             Controls.Add(BtnValores);
@@ -159,5 +171,6 @@
         private Button BtnValores;
         private Button BtnProdutos;
         private UserControlFuncoes userControlFuncoes1;
+        private Button BtnConfiguracoes;
     }
 }
