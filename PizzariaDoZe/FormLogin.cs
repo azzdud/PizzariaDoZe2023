@@ -15,6 +15,7 @@ namespace PizzariaDoZe
         public FormLogin()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
     }
 }

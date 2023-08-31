@@ -124,7 +124,7 @@
     <value>Customers</value>
   </data>
   <data name="BtnEditar.Text" xml:space="preserve">
-    <value>To edit</value>
+    <value>Edit</value>
   </data>
   <data name="BtnEndereco.Text" xml:space="preserve">
     <value>Address</value>
@@ -133,7 +133,7 @@
     <value>Delete</value>
   </data>
   <data name="BtnFechar.Text" xml:space="preserve">
-    <value>To close</value>
+    <value>Close</value>
   </data>
   <data name="BtnFuncionarios.Text" xml:space="preserve">
     <value>Employees</value>
@@ -151,10 +151,10 @@
     <value>Flavors</value>
   </data>
   <data name="BtnSalvar.Text" xml:space="preserve">
-    <value>To save</value>
+    <value>Save</value>
   </data>
   <data name="BtnValores.Text" xml:space="preserve">
-    <value>PIZZAS VALUES</value>
+    <value>Pizza Values</value>
   </data>
   <data name="LabelBairro.Text" xml:space="preserve">
     <value>Neighborhood:</value>
@@ -166,7 +166,7 @@
     <value>Category:</value>
   </data>
   <data name="LabelCEP.Text" xml:space="preserve">
-    <value>ZIP CODE:</value>
+    <value>ZIP Code:</value>
   </data>
   <data name="LabelCidade.Text" xml:space="preserve">
     <value>City:</value>
@@ -185,6 +185,9 @@
   </data>
   <data name="LabelID.Text" xml:space="preserve">
     <value>ID:</value>
+  </data>
+  <data name="LabelIngredientes.Text" xml:space="preserve">
+    <value>Ingredients:</value>
   </data>
   <data name="LabelLogin.Text" xml:space="preserve">
     <value>Login</value>
@@ -235,6 +238,6 @@
     <value>Value:</value>
   </data>
   <data name="LabelValorAdc.Text" xml:space="preserve">
-    <value>Additional value</value>
+    <value>Additional value:</value>
   </data>
 </root>

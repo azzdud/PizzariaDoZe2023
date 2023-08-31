@@ -124,10 +124,10 @@
     <value>Clientes</value>
   </data>
   <data name="BtnEditar.Text" xml:space="preserve">
-    <value>Para editar</value>
+    <value>Editar</value>
   </data>
   <data name="BtnEndereco.Text" xml:space="preserve">
-    <value>DIRECCIÓN</value>
+    <value>Dirección</value>
   </data>
   <data name="BtnExcluir.Text" xml:space="preserve">
     <value>Borrar</value>
@@ -166,7 +166,7 @@
     <value>Categoría:</value>
   </data>
   <data name="LabelCEP.Text" xml:space="preserve">
-    <value>CÓDIGO POSTAL:</value>
+    <value>Código Postal:</value>
   </data>
   <data name="LabelCidade.Text" xml:space="preserve">
     <value>Ciudad:</value>
@@ -184,7 +184,10 @@
     <value>Fotografía:</value>
   </data>
   <data name="LabelID.Text" xml:space="preserve">
-    <value>IDENTIFICACIÓN:</value>
+    <value>ID:</value>
+  </data>
+  <data name="LabelIngredientes.Text" xml:space="preserve">
+    <value>Ingredientes</value>
   </data>
   <data name="LabelLogin.Text" xml:space="preserve">
     <value>Acceso</value>
@@ -235,6 +238,6 @@
     <value>Valor:</value>
   </data>
   <data name="LabelValorAdc.Text" xml:space="preserve">
-    <value>Valor adicional</value>
+    <value>Valor adicional:</value>
   </data>
 </root>

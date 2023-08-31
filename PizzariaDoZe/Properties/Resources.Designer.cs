@@ -268,6 +268,15 @@ namespace PizzariaDoZe.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Ingredientes:.
+        /// </summary>
+        internal static string LabelIngredientes {
+            get {
+                return ResourceManager.GetString("LabelIngredientes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Login.
         /// </summary>
         internal static string LabelLogin_Text {
@@ -412,7 +421,7 @@ namespace PizzariaDoZe.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Valor Adicional.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Valor Adicional:.
         /// </summary>
         internal static string LabelValorAdc_Text {
             get {

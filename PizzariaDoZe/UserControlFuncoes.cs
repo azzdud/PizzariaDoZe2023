@@ -15,17 +15,15 @@ namespace PizzariaDoZe
         public UserControlFuncoes()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void BtnFechar_Click(object sender, EventArgs e)
         {
             Form form = FindForm();
 
-            if (form != null)
-            {
-                // Fecha o formulário
-                form.Close();
-            }
+            // Fecha o formulário
+            form?.Close();
         }
     }
 }

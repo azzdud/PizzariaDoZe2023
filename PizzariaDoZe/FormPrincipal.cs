@@ -13,6 +13,7 @@ namespace PizzariaDoZe
         public FormPrincipal()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void BtnFuncionarios_Click(object sender, EventArgs e)

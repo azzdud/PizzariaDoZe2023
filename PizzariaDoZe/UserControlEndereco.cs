@@ -15,6 +15,7 @@ namespace PizzariaDoZe
         public UserControlEndereco()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
     }
 }

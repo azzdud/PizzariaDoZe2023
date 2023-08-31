@@ -186,6 +186,9 @@
   <data name="LabelID.Text" xml:space="preserve">
     <value>ID:</value>
   </data>
+  <data name="LabelIngredientes" xml:space="preserve">
+    <value>Ingredientes:</value>
+  </data>
   <data name="LabelLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
@@ -235,6 +238,6 @@
     <value>Valor:</value>
   </data>
   <data name="LabelValorAdc.Text" xml:space="preserve">
-    <value>Valor Adicional</value>
+    <value>Valor Adicional:</value>
   </data>
 </root>

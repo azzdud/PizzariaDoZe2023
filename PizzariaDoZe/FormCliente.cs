@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzariaDoZe.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace PizzariaDoZe
         public FormCliente()
         {
             InitializeComponent();
+
+            #region idioma/região interface - satellite assembly
+            // com base no idioma/região escolhido pelo usuário,
+            // ajusta as propriedades dos componentes da tela com base no conteúdo do arquivo resources
+            Funcoes.AjustaResourcesControl(this);
+            #endregion
         }
     }
 }
