@@ -10,10 +10,23 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Inicializa o modal dos Funcionários
+    /// </summary>
     public partial class FormFuncionario : Form
     {
+        /// <summary>
+        /// Inicializa o modal dos Funcionários
+        /// </summary>
         public FormFuncionario()
         {
+            InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
+        }
+
+        private void FormFuncionario_Load(object sender, EventArgs e)
+        {
+            Controls.Clear();
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
         }

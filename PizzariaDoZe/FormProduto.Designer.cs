@@ -68,7 +68,7 @@
             ComboBoxML.Location = new Point(383, 214);
             ComboBoxML.Name = "ComboBoxML";
             ComboBoxML.Size = new Size(97, 27);
-            ComboBoxML.TabIndex = 5;
+            ComboBoxML.TabIndex = 4;
             // 
             // ListBoxTipo
             // 
@@ -78,14 +78,14 @@
             ListBoxTipo.Location = new Point(383, 43);
             ListBoxTipo.Name = "ListBoxTipo";
             ListBoxTipo.Size = new Size(97, 118);
-            ListBoxTipo.TabIndex = 4;
+            ListBoxTipo.TabIndex = 3;
             // 
             // TextBoxValor
             // 
             TextBoxValor.Location = new Point(30, 215);
             TextBoxValor.Name = "TextBoxValor";
             TextBoxValor.Size = new Size(289, 26);
-            TextBoxValor.TabIndex = 1;
+            TextBoxValor.TabIndex = 2;
             // 
             // LabelValor
             // 
@@ -126,7 +126,7 @@
             TextBoxID.Location = new Point(30, 43);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(86, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelTipo
             // 
@@ -165,6 +165,7 @@
             Name = "FormProduto";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormProduto";
+            Load += FormProduto_Load;
             PanelProduto.ResumeLayout(false);
             PanelProduto.PerformLayout();
             ResumeLayout(false);

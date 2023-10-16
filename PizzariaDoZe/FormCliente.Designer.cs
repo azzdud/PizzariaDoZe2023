@@ -83,7 +83,7 @@
             TextBoxEmail.Location = new Point(14, 182);
             TextBoxEmail.Name = "TextBoxEmail";
             TextBoxEmail.Size = new Size(275, 26);
-            TextBoxEmail.TabIndex = 1;
+            TextBoxEmail.TabIndex = 3;
             // 
             // LabelEmail
             // 
@@ -99,7 +99,7 @@
             TextBoxTelefone.Location = new Point(14, 246);
             TextBoxTelefone.Name = "TextBoxTelefone";
             TextBoxTelefone.Size = new Size(176, 26);
-            TextBoxTelefone.TabIndex = 1;
+            TextBoxTelefone.TabIndex = 4;
             // 
             // LabelTelefone
             // 
@@ -115,7 +115,7 @@
             TextBoxNome.Location = new Point(14, 112);
             TextBoxNome.Name = "TextBoxNome";
             TextBoxNome.Size = new Size(386, 26);
-            TextBoxNome.TabIndex = 1;
+            TextBoxNome.TabIndex = 2;
             // 
             // LabelNome
             // 
@@ -131,7 +131,7 @@
             TextBoxID.Location = new Point(14, 45);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(176, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelID
             // 
@@ -147,14 +147,14 @@
             userControlEndereco1.Location = new Point(440, 12);
             userControlEndereco1.Name = "userControlEndereco1";
             userControlEndereco1.Size = new Size(639, 305);
-            userControlEndereco1.TabIndex = 2;
+            userControlEndereco1.TabIndex = 5;
             // 
             // userControlFuncoes1
             // 
             userControlFuncoes1.Location = new Point(523, 309);
             userControlFuncoes1.Name = "userControlFuncoes1";
             userControlFuncoes1.Size = new Size(527, 121);
-            userControlFuncoes1.TabIndex = 3;
+            userControlFuncoes1.TabIndex = 6;
             // 
             // FormCliente
             // 
@@ -170,6 +170,7 @@
             Name = "FormCliente";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormClientes";
+            Load += FormCliente_Load;
             PanelCliente.ResumeLayout(false);
             PanelCliente.PerformLayout();
             ResumeLayout(false);

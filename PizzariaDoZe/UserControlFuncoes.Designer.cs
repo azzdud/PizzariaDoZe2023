@@ -48,7 +48,7 @@
             BtnEditar.Location = new Point(152, 25);
             BtnEditar.Name = "BtnEditar";
             BtnEditar.Size = new Size(104, 77);
-            BtnEditar.TabIndex = 0;
+            BtnEditar.TabIndex = 1;
             BtnEditar.Text = "Editar";
             BtnEditar.UseVisualStyleBackColor = true;
             // 
@@ -57,7 +57,7 @@
             BtnExcluir.Location = new Point(278, 25);
             BtnExcluir.Name = "BtnExcluir";
             BtnExcluir.Size = new Size(104, 77);
-            BtnExcluir.TabIndex = 0;
+            BtnExcluir.TabIndex = 2;
             BtnExcluir.Text = "Excluir";
             BtnExcluir.UseVisualStyleBackColor = true;
             // 
@@ -66,7 +66,7 @@
             BtnFechar.Location = new Point(403, 25);
             BtnFechar.Name = "BtnFechar";
             BtnFechar.Size = new Size(104, 77);
-            BtnFechar.TabIndex = 0;
+            BtnFechar.TabIndex = 3;
             BtnFechar.Text = "Fechar";
             BtnFechar.UseVisualStyleBackColor = true;
             BtnFechar.Click += BtnFechar_Click;

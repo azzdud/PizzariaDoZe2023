@@ -2,15 +2,18 @@ namespace PizzariaDoZe
 {
     public partial class FormPrincipal : Form
     {
-        FormFuncionario formFuncionario = new();
-        FormCliente formCliente = new();
-        FormIngrediente formIngrediente = new();
-        FormSabores formSabores = new();
-        FormValores formValores = new();
-        FormProduto formProduto = new();
-        FormLogin formLogin = new();
+        readonly FormFuncionario formFuncionario = new();
+        readonly FormCliente formCliente = new();
+        readonly FormIngrediente formIngrediente = new();
+        readonly FormSabores formSabores = new();
+        readonly FormValores formValores = new();
+        readonly FormProduto formProduto = new();
+        readonly FormLogin formLogin = new();
         FormConfiguracoes formConfiguracoes = new();
 
+        /// <summary>
+        /// Inicializa o formulário principal
+        /// </summary>
         public FormPrincipal()
         {
             InitializeComponent();
@@ -20,11 +23,13 @@ namespace PizzariaDoZe
         private void BtnFuncionarios_Click(object sender, EventArgs e)
         {
             formFuncionario.ShowDialog();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void BtnClientes_Click(object sender, EventArgs e)
         {
             formCliente.ShowDialog();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void BtnIngredientes_Click(object sender, EventArgs e)
@@ -54,14 +59,19 @@ namespace PizzariaDoZe
 
         private void BtnConfiguracoes_Click(object sender, EventArgs e)
         {
-            formConfiguracoes = new()
-            {
-                StartPosition = FormStartPosition.CenterScreen
-            };
+            formConfiguracoes = new();
+
             _ = formConfiguracoes.ShowDialog();
             // remove todos os controles e recria a tela, aplicando assim o novo idioma
             Controls.Clear();
             InitializeComponent();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            Controls.Clear();
+            InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
     }
 }

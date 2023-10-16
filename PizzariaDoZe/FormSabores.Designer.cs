@@ -89,7 +89,7 @@
             CheckedListBoxIngredientes.Location = new Point(384, 45);
             CheckedListBoxIngredientes.Name = "CheckedListBoxIngredientes";
             CheckedListBoxIngredientes.Size = new Size(220, 340);
-            CheckedListBoxIngredientes.TabIndex = 3;
+            CheckedListBoxIngredientes.TabIndex = 4;
             // 
             // ComboBoxTipo
             // 
@@ -98,7 +98,7 @@
             ComboBoxTipo.Location = new Point(209, 115);
             ComboBoxTipo.Name = "ComboBoxTipo";
             ComboBoxTipo.Size = new Size(149, 27);
-            ComboBoxTipo.TabIndex = 2;
+            ComboBoxTipo.TabIndex = 3;
             // 
             // LabelTipo
             // 
@@ -148,7 +148,7 @@
             TextBoxID.Location = new Point(14, 45);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(86, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelIngredientes
             // 
@@ -188,6 +188,7 @@
             Name = "FormSabores";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormSabores";
+            Load += FormSabores_Load;
             PanelCadastro.ResumeLayout(false);
             PanelCadastro.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)PictureBoxFoto).EndInit();

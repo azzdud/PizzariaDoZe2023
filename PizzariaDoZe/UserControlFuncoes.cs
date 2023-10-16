@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Inicializa o modal de Funções
+    /// </summary>
     public partial class UserControlFuncoes : UserControl
     {
+        /// <summary>
+        /// Inicializa o modal de Funções
+        /// </summary>
         public UserControlFuncoes()
         {
             InitializeComponent();
@@ -20,7 +26,7 @@ namespace PizzariaDoZe
 
         private void BtnFechar_Click(object sender, EventArgs e)
         {
-            Form form = FindForm();
+            var form = FindForm();
 
             // Fecha o formulário
             form?.Close();

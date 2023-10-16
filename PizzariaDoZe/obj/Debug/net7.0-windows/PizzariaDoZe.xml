@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PizzariaDoZe</name>
+    </assembly>
+    <members>
+        <member name="T:PizzariaDoZe.FormCliente">
+            <summary>
+            Abre o formulário de Clientes
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormCliente.#ctor">
+            <summary>
+            Abre o formulário de Clientes
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormCliente.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormCliente.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormCliente.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormConfiguracoes">
+            <summary>
+            Inicializa o modal de Configurações
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormConfiguracoes.#ctor">
+            <summary>
+            Inicializa o modal de Configurações
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormConfiguracoes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormConfiguracoes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormConfiguracoes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormFuncionario">
+            <summary>
+            Inicializa o modal dos Funcionários
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormFuncionario.#ctor">
+            <summary>
+            Inicializa o modal dos Funcionários
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormFuncionario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormFuncionario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormFuncionario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormIngrediente">
+            <summary>
+            Inicializa o modal dos Ingredientes
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormIngrediente.#ctor">
+            <summary>
+            Inicializa o modal dos Ingredientes
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormIngrediente.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormIngrediente.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormIngrediente.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormLogin">
+            <summary>
+            Inicializa o modal de Login
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormLogin.#ctor">
+            <summary>
+            Inicializa o modal de Login
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormPrincipal">
+            <summary>
+            Inicializa o formulário principal
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormPrincipal.#ctor">
+            <summary>
+            Inicializa o formulário principal
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormPrincipal.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormPrincipal.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormPrincipal.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormProduto">
+            <summary>
+            Inicializa o modal dos Produtos
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormProduto.#ctor">
+            <summary>
+            Inicializa o modal dos Produtos
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormProduto.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormProduto.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormProduto.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormSabores">
+            <summary>
+            Inicializa o modal de Sabores
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormSabores.#ctor">
+            <summary>
+            Inicializa o modal de Sabores
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormSabores.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormSabores.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormSabores.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.FormValores">
+            <summary>
+            Inicializa o modal de Valores
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormValores.#ctor">
+            <summary>
+            Inicializa o modal de Valores
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormValores.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormValores.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormValores.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.CampoEventoEnter(System.Object,System.EventArgs)">
+            <summary>
+            Altera a cor do BackGroud quando o campo ganha o foco
+            </summary>
+            <param name="sender">Objeto que gerou o evento</param>
+            <param name="e">Evento que foi capturado</param>
+            <example> textBoxUsuario.Enter += new System.EventHandler(ClassFuncoes.CampoEventoEnter); </example>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.CampoEventoLeave(System.Object,System.EventArgs)">
+            <summary>
+            Alterar a cor do BackGroup quando o campo perde o foco
+            </summary>
+            <param name="sender">Objeto que gerou o evento</param>
+            <param name="e">Evento que foi capturado</param>
+            <example> textBoxUsuario.Leave += new System.EventHandler(ClassFuncoes.CampoEventoLeave); </example>
+        </member>
+        <member name="T:PizzariaDoZe.Properties.Resources">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnAcessar_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Acessar.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnClientes_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Clientes.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnEditar_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Editar.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnEndereco_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Endereço.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnExcluir_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Excluir.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnFechar_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Fechar.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnFuncionarios_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Funcionários.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnIngredientes_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Ingredientes.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnInicio_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Login.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnProdutos_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Produtos.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnSabores_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Sabores.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnSalvar_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnSalvarIdioma_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.BtnValores_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Valores das Pizzas.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.GroupBoxIdioma_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelBairro_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Bairro:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelCarteiraMotorista_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Carteira de Motorista:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelCategoria_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Categoria:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelCEP_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CEP:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelCidade_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Cidade:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelComplemento_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Complemento:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelCPF_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CPF:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelEmail_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a E-mail:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelFoto_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Foto:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelID_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a ID:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelIdioma_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelIngredientes">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Ingredientes:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelLogin_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Login.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelLogradouro_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Logradouro:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelMatricula_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Matricula:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelML_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a MLs:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelNome_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Nome:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelNumero_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Número:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelObservacoes_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Observações:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelPais_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a País:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelSenha_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Senha:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelTamanho_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Tamanho:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelTelefone_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Telefone:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelTipo_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Tipo:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelUF_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a UF:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelUsuario_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Usuário.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelValidade_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Validade:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelValor_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Valor:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.LabelValorAdc_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Valor Adicional:.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.TabPageIdioma_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.UserControlEndereco">
+            <summary>
+            Inicializa o modal de Endereços
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlEndereco.#ctor">
+            <summary>
+            Inicializa o modal de Endereços
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlEndereco.components">
+            <summary> 
+            Variável de designer necessária.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlEndereco.Dispose(System.Boolean)">
+            <summary> 
+            Limpar os recursos que estão sendo usados.
+            </summary>
+            <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlEndereco.InitializeComponent">
+            <summary> 
+            Método necessário para suporte ao Designer - não modifique 
+            o conteúdo deste método com o editor de código.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.UserControlFuncoes">
+            <summary>
+            Inicializa o modal de Funções
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlFuncoes.#ctor">
+            <summary>
+            Inicializa o modal de Funções
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlFuncoes.components">
+            <summary> 
+            Variável de designer necessária.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlFuncoes.Dispose(System.Boolean)">
+            <summary> 
+            Limpar os recursos que estão sendo usados.
+            </summary>
+            <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.UserControlFuncoes.InitializeComponent">
+            <summary> 
+            Método necessário para suporte ao Designer - não modifique 
+            o conteúdo deste método com o editor de código.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

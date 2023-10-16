@@ -79,14 +79,14 @@
             ListBoxTamanho.Location = new Point(383, 43);
             ListBoxTamanho.Name = "ListBoxTamanho";
             ListBoxTamanho.Size = new Size(97, 99);
-            ListBoxTamanho.TabIndex = 4;
+            ListBoxTamanho.TabIndex = 3;
             // 
             // TextBoxValorAdc
             // 
             TextBoxValorAdc.Location = new Point(30, 215);
             TextBoxValorAdc.Name = "TextBoxValorAdc";
             TextBoxValorAdc.Size = new Size(289, 26);
-            TextBoxValorAdc.TabIndex = 1;
+            TextBoxValorAdc.TabIndex = 2;
             // 
             // LabelValorAdc
             // 
@@ -127,7 +127,7 @@
             TextBoxID.Location = new Point(30, 43);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(86, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelTamanho
             // 
@@ -167,6 +167,7 @@
             Name = "FormValores";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormValores";
+            Load += FormValores_Load;
             PanelValores.ResumeLayout(false);
             PanelValores.PerformLayout();
             ResumeLayout(false);

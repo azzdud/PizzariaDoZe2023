@@ -13,6 +13,9 @@ namespace PizzariaDoZe
 {
     public partial class FormConfiguracoes : Form
     {
+        /// <summary>
+        /// Inicializa o modal de Configurações
+        /// </summary>
         public FormConfiguracoes()
         {
             InitializeComponent();
@@ -36,6 +39,7 @@ namespace PizzariaDoZe
             Program.AjustaIdiomaRegiao();
             Close();
             _ = MessageBox.Show("Idioma/região alterada com sucesso!");
+            Refresh();
         }
     }
 }

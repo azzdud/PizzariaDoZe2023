@@ -4,6 +4,7 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.runtimeconfig.json
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.xml
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
@@ -30,6 +31,7 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\refint\PizzariaDoZe.dll
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.xml
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.pdb
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll

@@ -169,11 +169,29 @@ namespace PizzariaDoZe.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+        /// </summary>
+        internal static string BtnSalvarIdioma_Text {
+            get {
+                return ResourceManager.GetString("BtnSalvarIdioma.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Valores das Pizzas.
         /// </summary>
         internal static string BtnValores_Text {
             get {
                 return ResourceManager.GetString("BtnValores.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+        /// </summary>
+        internal static string GroupBoxIdioma_Text {
+            get {
+                return ResourceManager.GetString("GroupBoxIdioma.Text", resourceCulture);
             }
         }
         
@@ -264,6 +282,15 @@ namespace PizzariaDoZe.Properties {
         internal static string LabelID_Text {
             get {
                 return ResourceManager.GetString("LabelID.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+        /// </summary>
+        internal static string LabelIdioma_Text {
+            get {
+                return ResourceManager.GetString("LabelIdioma.Text", resourceCulture);
             }
         }
         
@@ -426,6 +453,15 @@ namespace PizzariaDoZe.Properties {
         internal static string LabelValorAdc_Text {
             get {
                 return ResourceManager.GetString("LabelValorAdc.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+        /// </summary>
+        internal static string TabPageIdioma_Text {
+            get {
+                return ResourceManager.GetString("TabPageIdioma.Text", resourceCulture);
             }
         }
     }

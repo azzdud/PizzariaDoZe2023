@@ -87,7 +87,7 @@
             TextBoxMatricula.Location = new Point(293, 45);
             TextBoxMatricula.Name = "TextBoxMatricula";
             TextBoxMatricula.Size = new Size(153, 26);
-            TextBoxMatricula.TabIndex = 1;
+            TextBoxMatricula.TabIndex = 2;
             // 
             // LabelMatricula
             // 
@@ -119,7 +119,7 @@
             TextBoxEmail.Location = new Point(207, 182);
             TextBoxEmail.Name = "TextBoxEmail";
             TextBoxEmail.Size = new Size(193, 26);
-            TextBoxEmail.TabIndex = 1;
+            TextBoxEmail.TabIndex = 5;
             // 
             // LabelEmail
             // 
@@ -135,7 +135,7 @@
             TextBoxSenha.Location = new Point(415, 182);
             TextBoxSenha.Name = "TextBoxSenha";
             TextBoxSenha.Size = new Size(115, 26);
-            TextBoxSenha.TabIndex = 1;
+            TextBoxSenha.TabIndex = 6;
             // 
             // LabelSenha
             // 
@@ -151,7 +151,7 @@
             TextBoxValidade.Location = new Point(205, 253);
             TextBoxValidade.Name = "TextBoxValidade";
             TextBoxValidade.Size = new Size(115, 26);
-            TextBoxValidade.TabIndex = 1;
+            TextBoxValidade.TabIndex = 8;
             // 
             // LabelValidade
             // 
@@ -168,7 +168,7 @@
             TextBoxObservacoes.Multiline = true;
             TextBoxObservacoes.Name = "TextBoxObservacoes";
             TextBoxObservacoes.Size = new Size(516, 80);
-            TextBoxObservacoes.TabIndex = 1;
+            TextBoxObservacoes.TabIndex = 9;
             // 
             // LabelObservacoes
             // 
@@ -184,7 +184,7 @@
             TextBoxCarteiraMotorista.Location = new Point(14, 253);
             TextBoxCarteiraMotorista.Name = "TextBoxCarteiraMotorista";
             TextBoxCarteiraMotorista.Size = new Size(176, 26);
-            TextBoxCarteiraMotorista.TabIndex = 1;
+            TextBoxCarteiraMotorista.TabIndex = 7;
             // 
             // LabelCarteiraMotorista
             // 
@@ -200,7 +200,7 @@
             TextBoxTelefone.Location = new Point(14, 182);
             TextBoxTelefone.Name = "TextBoxTelefone";
             TextBoxTelefone.Size = new Size(176, 26);
-            TextBoxTelefone.TabIndex = 1;
+            TextBoxTelefone.TabIndex = 4;
             // 
             // LabelTelefone
             // 
@@ -216,7 +216,7 @@
             TextBoxNome.Location = new Point(14, 112);
             TextBoxNome.Name = "TextBoxNome";
             TextBoxNome.Size = new Size(460, 26);
-            TextBoxNome.TabIndex = 1;
+            TextBoxNome.TabIndex = 3;
             // 
             // LabelNome
             // 
@@ -232,7 +232,7 @@
             TextBoxID.Location = new Point(14, 45);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(96, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelID
             // 
@@ -248,14 +248,14 @@
             userControlFuncoes1.Location = new Point(677, 322);
             userControlFuncoes1.Name = "userControlFuncoes1";
             userControlFuncoes1.Size = new Size(534, 131);
-            userControlFuncoes1.TabIndex = 2;
+            userControlFuncoes1.TabIndex = 12;
             // 
             // userControlEndereco1
             // 
             userControlEndereco1.Location = new Point(563, 12);
             userControlEndereco1.Name = "userControlEndereco1";
             userControlEndereco1.Size = new Size(631, 304);
-            userControlEndereco1.TabIndex = 3;
+            userControlEndereco1.TabIndex = 11;
             // 
             // FormFuncionario
             // 
@@ -271,6 +271,7 @@
             Name = "FormFuncionario";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormFuncionario";
+            Load += FormFuncionario_Load;
             PanelCadastro.ResumeLayout(false);
             PanelCadastro.PerformLayout();
             ResumeLayout(false);

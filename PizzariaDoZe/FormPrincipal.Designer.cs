@@ -1,5 +1,8 @@
 ﻿namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Inicializa o formulário principal
+    /// </summary>
     partial class FormPrincipal
     {
         /// <summary>
@@ -55,7 +58,7 @@
             BtnEndereco.Location = new Point(12, 88);
             BtnEndereco.Name = "BtnEndereco";
             BtnEndereco.Size = new Size(118, 60);
-            BtnEndereco.TabIndex = 0;
+            BtnEndereco.TabIndex = 1;
             BtnEndereco.Text = "Endereço";
             BtnEndereco.UseVisualStyleBackColor = true;
             // 
@@ -64,7 +67,7 @@
             BtnFuncionarios.Location = new Point(12, 154);
             BtnFuncionarios.Name = "BtnFuncionarios";
             BtnFuncionarios.Size = new Size(118, 60);
-            BtnFuncionarios.TabIndex = 0;
+            BtnFuncionarios.TabIndex = 2;
             BtnFuncionarios.Text = "Funcionários";
             BtnFuncionarios.UseVisualStyleBackColor = true;
             BtnFuncionarios.Click += BtnFuncionarios_Click;
@@ -74,7 +77,7 @@
             BtnClientes.Location = new Point(12, 221);
             BtnClientes.Name = "BtnClientes";
             BtnClientes.Size = new Size(118, 60);
-            BtnClientes.TabIndex = 0;
+            BtnClientes.TabIndex = 3;
             BtnClientes.Text = "Clientes";
             BtnClientes.UseVisualStyleBackColor = true;
             BtnClientes.Click += BtnClientes_Click;
@@ -84,7 +87,7 @@
             BtnIngredientes.Location = new Point(12, 287);
             BtnIngredientes.Name = "BtnIngredientes";
             BtnIngredientes.Size = new Size(118, 60);
-            BtnIngredientes.TabIndex = 0;
+            BtnIngredientes.TabIndex = 4;
             BtnIngredientes.Text = "Ingredientes";
             BtnIngredientes.UseVisualStyleBackColor = true;
             BtnIngredientes.Click += BtnIngredientes_Click;
@@ -94,7 +97,7 @@
             BtnSabores.Location = new Point(12, 355);
             BtnSabores.Name = "BtnSabores";
             BtnSabores.Size = new Size(118, 60);
-            BtnSabores.TabIndex = 0;
+            BtnSabores.TabIndex = 5;
             BtnSabores.Text = "Sabores";
             BtnSabores.UseVisualStyleBackColor = true;
             BtnSabores.Click += BtnSabores_Click;
@@ -104,7 +107,7 @@
             BtnValores.Location = new Point(12, 421);
             BtnValores.Name = "BtnValores";
             BtnValores.Size = new Size(118, 60);
-            BtnValores.TabIndex = 0;
+            BtnValores.TabIndex = 6;
             BtnValores.Text = "Valores das Pizzas";
             BtnValores.UseVisualStyleBackColor = true;
             BtnValores.Click += BtnValores_Click;
@@ -114,7 +117,7 @@
             BtnProdutos.Location = new Point(12, 488);
             BtnProdutos.Name = "BtnProdutos";
             BtnProdutos.Size = new Size(118, 60);
-            BtnProdutos.TabIndex = 0;
+            BtnProdutos.TabIndex = 7;
             BtnProdutos.Text = "Produtos";
             BtnProdutos.UseVisualStyleBackColor = true;
             BtnProdutos.Click += BtnProdutos_Click;
@@ -124,14 +127,14 @@
             userControlFuncoes1.Location = new Point(514, 446);
             userControlFuncoes1.Name = "userControlFuncoes1";
             userControlFuncoes1.Size = new Size(532, 118);
-            userControlFuncoes1.TabIndex = 1;
+            userControlFuncoes1.TabIndex = 9;
             // 
             // BtnConfiguracoes
             // 
             BtnConfiguracoes.Location = new Point(957, 12);
             BtnConfiguracoes.Name = "BtnConfiguracoes";
             BtnConfiguracoes.Size = new Size(76, 47);
-            BtnConfiguracoes.TabIndex = 0;
+            BtnConfiguracoes.TabIndex = 8;
             BtnConfiguracoes.Text = "Config";
             BtnConfiguracoes.UseVisualStyleBackColor = true;
             BtnConfiguracoes.Click += BtnConfiguracoes_Click;
@@ -157,6 +160,7 @@
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pizzaria do Zé";
+            Load += FormPrincipal_Load;
             ResumeLayout(false);
         }
 

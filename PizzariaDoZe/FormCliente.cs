@@ -11,17 +11,25 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Abre o formulário de Clientes
+    /// </summary>
     public partial class FormCliente : Form
     {
+        /// <summary>
+        /// Abre o formulário de Clientes
+        /// </summary>
         public FormCliente()
         {
             InitializeComponent();
-
-            #region idioma/região interface - satellite assembly
-            // com base no idioma/região escolhido pelo usuário,
-            // ajusta as propriedades dos componentes da tela com base no conteúdo do arquivo resources
             Funcoes.AjustaResourcesControl(this);
-            #endregion
+        }
+
+        private void FormCliente_Load(object sender, EventArgs e)
+        {
+            Controls.Clear();
+            InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
     }
 }

@@ -33,7 +33,7 @@
             LabelNome = new Label();
             TextBoxID = new TextBox();
             LabelID = new Label();
-            userControlFuncoes1 = new UserControlFuncoes();
+            userControlFuncoes = new UserControlFuncoes();
             PanelCadastro.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,7 +70,7 @@
             TextBoxID.Location = new Point(14, 45);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(147, 26);
-            TextBoxID.TabIndex = 1;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelID
             // 
@@ -81,26 +81,27 @@
             LabelID.TabIndex = 0;
             LabelID.Text = "ID:";
             // 
-            // userControlFuncoes1
+            // userControlFuncoes
             // 
-            userControlFuncoes1.Location = new Point(32, 103);
-            userControlFuncoes1.Name = "userControlFuncoes1";
-            userControlFuncoes1.Size = new Size(522, 111);
-            userControlFuncoes1.TabIndex = 2;
+            userControlFuncoes.Location = new Point(12, 114);
+            userControlFuncoes.Name = "userControlFuncoes";
+            userControlFuncoes.Size = new Size(631, 151);
+            userControlFuncoes.TabIndex = 2;
             // 
             // FormIngrediente
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(590, 226);
+            Controls.Add(userControlFuncoes);
             Controls.Add(PanelCadastro);
-            Controls.Add(userControlFuncoes1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormIngrediente";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormIngrediente";
+            Load += FormIngrediente_Load;
             PanelCadastro.ResumeLayout(false);
             PanelCadastro.PerformLayout();
             ResumeLayout(false);
@@ -113,6 +114,6 @@
         private Label LabelNome;
         private TextBox TextBoxID;
         private Label LabelID;
-        private UserControlFuncoes userControlFuncoes1;
+        private UserControlFuncoes userControlFuncoes;
     }
 }

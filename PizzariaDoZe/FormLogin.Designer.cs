@@ -30,11 +30,11 @@
         {
             LabelLogin = new Label();
             PanelLogin = new Panel();
-            LabelUsuario = new Label();
-            TextBoxUsuario = new TextBox();
-            LabelSenha = new Label();
-            TextBoxSenha = new TextBox();
             BtnAcessar = new Button();
+            TextBoxSenha = new TextBox();
+            LabelSenha = new Label();
+            TextBoxUsuario = new TextBox();
+            LabelUsuario = new Label();
             PanelLogin.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,22 +60,21 @@
             PanelLogin.Size = new Size(579, 256);
             PanelLogin.TabIndex = 1;
             // 
-            // LabelUsuario
+            // BtnAcessar
             // 
-            LabelUsuario.AutoSize = true;
-            LabelUsuario.Location = new Point(40, 35);
-            LabelUsuario.Name = "LabelUsuario";
-            LabelUsuario.Size = new Size(59, 20);
-            LabelUsuario.TabIndex = 0;
-            LabelUsuario.Text = "Usuário";
-            LabelUsuario.TextAlign = ContentAlignment.MiddleCenter;
+            BtnAcessar.Location = new Point(455, 210);
+            BtnAcessar.Name = "BtnAcessar";
+            BtnAcessar.Size = new Size(90, 28);
+            BtnAcessar.TabIndex = 2;
+            BtnAcessar.Text = "Acessar";
+            BtnAcessar.UseVisualStyleBackColor = true;
             // 
-            // TextBoxUsuario
+            // TextBoxSenha
             // 
-            TextBoxUsuario.Location = new Point(40, 69);
-            TextBoxUsuario.Name = "TextBoxUsuario";
-            TextBoxUsuario.Size = new Size(491, 26);
-            TextBoxUsuario.TabIndex = 1;
+            TextBoxSenha.Location = new Point(40, 156);
+            TextBoxSenha.Name = "TextBoxSenha";
+            TextBoxSenha.Size = new Size(491, 26);
+            TextBoxSenha.TabIndex = 1;
             // 
             // LabelSenha
             // 
@@ -87,21 +86,22 @@
             LabelSenha.Text = "Senha";
             LabelSenha.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // TextBoxSenha
+            // TextBoxUsuario
             // 
-            TextBoxSenha.Location = new Point(40, 156);
-            TextBoxSenha.Name = "TextBoxSenha";
-            TextBoxSenha.Size = new Size(491, 26);
-            TextBoxSenha.TabIndex = 1;
+            TextBoxUsuario.Location = new Point(40, 69);
+            TextBoxUsuario.Name = "TextBoxUsuario";
+            TextBoxUsuario.Size = new Size(491, 26);
+            TextBoxUsuario.TabIndex = 0;
             // 
-            // BtnAcessar
+            // LabelUsuario
             // 
-            BtnAcessar.Location = new Point(455, 210);
-            BtnAcessar.Name = "BtnAcessar";
-            BtnAcessar.Size = new Size(90, 28);
-            BtnAcessar.TabIndex = 2;
-            BtnAcessar.Text = "Acessar";
-            BtnAcessar.UseVisualStyleBackColor = true;
+            LabelUsuario.AutoSize = true;
+            LabelUsuario.Location = new Point(40, 35);
+            LabelUsuario.Name = "LabelUsuario";
+            LabelUsuario.Size = new Size(59, 20);
+            LabelUsuario.TabIndex = 0;
+            LabelUsuario.Text = "Usuário";
+            LabelUsuario.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FormLogin
             // 
@@ -115,6 +115,7 @@
             Name = "FormLogin";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormLogin";
+            Load += FormLogin_Load;
             PanelLogin.ResumeLayout(false);
             PanelLogin.PerformLayout();
             ResumeLayout(false);

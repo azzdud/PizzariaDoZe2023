@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Inicializa o modal de Endereços
+    /// </summary>
     public partial class UserControlEndereco : UserControl
     {
+        /// <summary>
+        /// Inicializa o modal de Endereços
+        /// </summary>
         public UserControlEndereco()
         {
             InitializeComponent();

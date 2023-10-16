@@ -54,7 +54,7 @@
             ComboBoxCidade.Location = new Point(22, 185);
             ComboBoxCidade.Name = "ComboBoxCidade";
             ComboBoxCidade.Size = new Size(267, 27);
-            ComboBoxCidade.TabIndex = 26;
+            ComboBoxCidade.TabIndex = 5;
             // 
             // LabelCidade
             // 
@@ -71,7 +71,7 @@
             ComboBoxUF.Location = new Point(423, 114);
             ComboBoxUF.Name = "ComboBoxUF";
             ComboBoxUF.Size = new Size(190, 27);
-            ComboBoxUF.TabIndex = 23;
+            ComboBoxUF.TabIndex = 4;
             // 
             // ComboBoxPais
             // 
@@ -79,7 +79,7 @@
             ComboBoxPais.Location = new Point(22, 114);
             ComboBoxPais.Name = "ComboBoxPais";
             ComboBoxPais.Size = new Size(368, 27);
-            ComboBoxPais.TabIndex = 24;
+            ComboBoxPais.TabIndex = 3;
             // 
             // LabelBairro
             // 
@@ -104,7 +104,7 @@
             TextBoxPais.Location = new Point(321, 186);
             TextBoxPais.Name = "TextBoxPais";
             TextBoxPais.Size = new Size(292, 26);
-            TextBoxPais.TabIndex = 20;
+            TextBoxPais.TabIndex = 6;
             // 
             // LabelPais
             // 
@@ -120,7 +120,7 @@
             TextBoxLogradouro.Location = new Point(321, 47);
             TextBoxLogradouro.Name = "TextBoxLogradouro";
             TextBoxLogradouro.Size = new Size(292, 26);
-            TextBoxLogradouro.TabIndex = 17;
+            TextBoxLogradouro.TabIndex = 2;
             // 
             // LabelLogradouro
             // 
@@ -136,7 +136,7 @@
             TextBoxNome.Location = new Point(169, 47);
             TextBoxNome.Name = "TextBoxNome";
             TextBoxNome.Size = new Size(120, 26);
-            TextBoxNome.TabIndex = 15;
+            TextBoxNome.TabIndex = 1;
             // 
             // LabelCEP
             // 
@@ -152,7 +152,7 @@
             TextBoxID.Location = new Point(22, 47);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(120, 26);
-            TextBoxID.TabIndex = 13;
+            TextBoxID.TabIndex = 0;
             // 
             // LabelID
             // 
@@ -168,7 +168,7 @@
             TextBoxComplemento.Location = new Point(186, 258);
             TextBoxComplemento.Name = "TextBoxComplemento";
             TextBoxComplemento.Size = new Size(427, 26);
-            TextBoxComplemento.TabIndex = 20;
+            TextBoxComplemento.TabIndex = 8;
             // 
             // LabelComplemento
             // 
@@ -193,7 +193,7 @@
             TextBoxNumero.Location = new Point(22, 258);
             TextBoxNumero.Name = "TextBoxNumero";
             TextBoxNumero.Size = new Size(137, 26);
-            TextBoxNumero.TabIndex = 27;
+            TextBoxNumero.TabIndex = 7;
             // 
             // UserControlEndereco
             // 

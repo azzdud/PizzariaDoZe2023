@@ -1,5 +1,8 @@
 ﻿namespace PizzariaDoZe
 {
+    /// <summary>
+    /// Inicializa o modal de Configurações
+    /// </summary>
     partial class FormConfiguracoes
     {
         /// <summary>

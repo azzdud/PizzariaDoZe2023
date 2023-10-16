@@ -153,8 +153,14 @@
   <data name="BtnSalvar.Text" xml:space="preserve">
     <value>Salvar</value>
   </data>
+  <data name="BtnSalvarIdioma.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
   <data name="BtnValores.Text" xml:space="preserve">
     <value>Valores das Pizzas</value>
+  </data>
+  <data name="GroupBoxIdioma.Text" xml:space="preserve">
+    <value>Idioma/Região</value>
   </data>
   <data name="LabelBairro.Text" xml:space="preserve">
     <value>Bairro:</value>
@@ -185,6 +191,9 @@
   </data>
   <data name="LabelID.Text" xml:space="preserve">
     <value>ID:</value>
+  </data>
+  <data name="LabelIdioma.Text" xml:space="preserve">
+    <value>Idioma/Região</value>
   </data>
   <data name="LabelIngredientes" xml:space="preserve">
     <value>Ingredientes:</value>
@@ -239,5 +248,8 @@
   </data>
   <data name="LabelValorAdc.Text" xml:space="preserve">
     <value>Valor Adicional:</value>
+  </data>
+  <data name="TabPageIdioma.Text" xml:space="preserve">
+    <value>Idioma/Região</value>
   </data>
 </root>
