@@ -160,6 +160,7 @@
             ClientSize = new Size(564, 386);
             Controls.Add(PanelProduto);
             Controls.Add(userControlFuncoes1);
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormProduto";

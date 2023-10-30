@@ -10,6 +10,7 @@ namespace PizzariaDoZe
         readonly FormProduto formProduto = new();
         readonly FormLogin formLogin = new();
         FormConfiguracoes formConfiguracoes = new();
+        readonly UserControlFuncoes userControlFuncoes = new();
 
         /// <summary>
         /// Inicializa o formulário principal
@@ -18,11 +19,14 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            Funcoes.EventoFocoCampos(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
 
         private void BtnFuncionarios_Click(object sender, EventArgs e)
         {
             formFuncionario.ShowDialog();
+         //TESTE
             Funcoes.AjustaResourcesControl(this);
         }
 
@@ -73,5 +77,6 @@ namespace PizzariaDoZe
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
         }
+
     }
 }

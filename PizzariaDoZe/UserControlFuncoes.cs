@@ -24,10 +24,10 @@ namespace PizzariaDoZe
             Funcoes.AjustaResourcesControl(this);
         }
 
-        private void BtnFechar_Click(object sender, EventArgs e)
+        public void BtnFechar_Click(object sender, EventArgs e)
         {
             var form = FindForm();
-
+                         
             // Fecha o formulário
             form?.Close();
         }

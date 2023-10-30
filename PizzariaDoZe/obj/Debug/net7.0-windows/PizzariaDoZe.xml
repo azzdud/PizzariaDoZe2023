@@ -253,7 +253,7 @@
             </summary>
             <param name="sender">Objeto que gerou o evento</param>
             <param name="e">Evento que foi capturado</param>
-            <example> textBoxUsuario.Enter += new System.EventHandler(ClassFuncoes.CampoEventoEnter); </example>
+            <example> textBoxUsuario.Enter += new System.EventHandler(Funcoes.CampoEventoEnter); </example>
         </member>
         <member name="M:PizzariaDoZe.Funcoes.CampoEventoLeave(System.Object,System.EventArgs)">
             <summary>
@@ -261,7 +261,29 @@
             </summary>
             <param name="sender">Objeto que gerou o evento</param>
             <param name="e">Evento que foi capturado</param>
-            <example> textBoxUsuario.Leave += new System.EventHandler(ClassFuncoes.CampoEventoLeave); </example>
+            <example> textBoxUsuario.Leave += new System.EventHandler(Funcoes.CampoEventoLeave); </example>
+            
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.EventoFocoCampos(System.Windows.Forms.Control)">
+            <summary>
+            De forma recursiva, varre todos os componentes do Control informado,
+            adicionando nos tipos informados os eventos Enter e Leave,
+            e vinculando aos manipuladores criados.
+            </summary>
+            <param name="container">Informar o container inicial,
+            geralmente this para pegar todos os campos da tela, ou então, por exemplo, o nome de um panel ou usercontrol.
+            </param>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.FormEventoKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+             <summary>
+             Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+             </summary>
+             <remarks>KeyPreview do formulário para true.</remarks>
+             <param name="sender">Objeto que gerou o evento</param>
+             <param name="e">Evento que foi capturado</param>
+             <example>No construtor do formulário:
+             this.KeyDown += new System.Windows.Forms.KeyEventHandler(Funcoes.FormEventoKeyDown);
+            </example>
         </member>
         <member name="T:PizzariaDoZe.Properties.Resources">
             <summary>

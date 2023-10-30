@@ -162,6 +162,7 @@
             Controls.Add(PanelValores);
             Controls.Add(userControlFuncoes1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormValores";

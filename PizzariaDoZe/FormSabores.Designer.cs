@@ -183,6 +183,7 @@
             Controls.Add(PanelCadastro);
             Controls.Add(userControlFuncoes1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormSabores";

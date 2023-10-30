@@ -22,6 +22,8 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            Funcoes.EventoFocoCampos(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
 
         private void FormFuncionario_Load(object sender, EventArgs e)

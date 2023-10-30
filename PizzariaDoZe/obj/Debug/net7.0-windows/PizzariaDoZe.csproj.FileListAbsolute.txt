@@ -5,9 +5,9 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.xml
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\aa\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\bin\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
-E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.FormCliente.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.FormConfiguracoes.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.FormFuncionario.resources
@@ -20,6 +20,7 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.UserControlEndereco.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.UserControlFuncoes.resources
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.FormFuncionario.aa.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.en-US.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.es.resources
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.GenerateResource.cache
@@ -27,6 +28,7 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfoInputs.cache
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfo.cs
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CoreCompileInputs.cache
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\aa\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll

@@ -121,6 +121,7 @@
             ClientSize = new Size(816, 449);
             Controls.Add(tabControl1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormConfiguracoes";

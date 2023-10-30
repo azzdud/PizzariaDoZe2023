@@ -165,6 +165,7 @@
             Controls.Add(userControlEndereco1);
             Controls.Add(PanelCliente);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormCliente";

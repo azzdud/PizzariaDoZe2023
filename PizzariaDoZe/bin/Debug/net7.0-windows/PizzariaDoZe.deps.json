@@ -11,6 +11,9 @@
           "PizzariaDoZe.dll": {}
         },
         "resources": {
+          "aa/PizzariaDoZe.resources.dll": {
+            "locale": "aa"
+          },
           "en-US/PizzariaDoZe.resources.dll": {
             "locale": "en-US"
           },

@@ -155,6 +155,7 @@
             Controls.Add(BtnEndereco);
             Controls.Add(BtnInicio);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormPrincipal";

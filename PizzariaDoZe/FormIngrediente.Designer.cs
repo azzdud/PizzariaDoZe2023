@@ -96,6 +96,7 @@
             Controls.Add(userControlFuncoes);
             Controls.Add(PanelCadastro);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormIngrediente";

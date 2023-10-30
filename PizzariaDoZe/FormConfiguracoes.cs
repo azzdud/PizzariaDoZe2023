@@ -21,7 +21,9 @@ namespace PizzariaDoZe
             InitializeComponent();
 
             Funcoes.AjustaResourcesControl(this);
-            Text = Properties.Resources.ResourceManager.GetString("txtTituloPrincipal");
+            Funcoes.EventoFocoCampos(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+
 
             //seleciona no comboBox o idioma/cultura atual
             ComboBoxIdioma.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
