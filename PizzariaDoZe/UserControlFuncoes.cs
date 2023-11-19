@@ -15,6 +15,7 @@ namespace PizzariaDoZe
     /// </summary>
     public partial class UserControlFuncoes : UserControl
     {
+
         /// <summary>
         /// Inicializa o modal de Funções
         /// </summary>
@@ -24,10 +25,13 @@ namespace PizzariaDoZe
             Funcoes.AjustaResourcesControl(this);
         }
 
+        /// <summary>
+        /// Fecha o modal atual
+        /// </summary>
         public void BtnFechar_Click(object sender, EventArgs e)
         {
             var form = FindForm();
-                         
+
             // Fecha o formulário
             form?.Close();
         }

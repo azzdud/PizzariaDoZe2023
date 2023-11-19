@@ -371,9 +371,34 @@
               Consulta uma cadeia de caracteres localizada semelhante a Valores das Pizzas.
             </summary>
         </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.clientesToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Clientes.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.configToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Config.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.enderecoToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Endereço.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.funcionariosToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Funcionários.
+            </summary>
+        </member>
         <member name="P:PizzariaDoZe.Properties.Resources.GroupBoxIdioma_Text">
             <summary>
               Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.ingredientesToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Ingredientes.
             </summary>
         </member>
         <member name="P:PizzariaDoZe.Properties.Resources.LabelBairro_Text">
@@ -521,9 +546,29 @@
               Consulta uma cadeia de caracteres localizada semelhante a Valor Adicional:.
             </summary>
         </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.produtosToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Produtos.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.saboresToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Sabores.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.sairToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Sair.
+            </summary>
+        </member>
         <member name="P:PizzariaDoZe.Properties.Resources.TabPageIdioma_Text">
             <summary>
               Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.valoresDasPizzasToolStripMenuItem_Text">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Valores das Pizzas.
             </summary>
         </member>
         <member name="T:PizzariaDoZe.UserControlEndereco">
@@ -563,6 +608,11 @@
             Inicializa o modal de Funções
             </summary>
         </member>
+        <member name="M:PizzariaDoZe.UserControlFuncoes.BtnFechar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Fecha o modal atual
+            </summary>
+        </member>
         <member name="F:PizzariaDoZe.UserControlFuncoes.components">
             <summary> 
             Variável de designer necessária.
@@ -578,6 +628,26 @@
             <summary> 
             Método necessário para suporte ao Designer - não modifique 
             o conteúdo deste método com o editor de código.
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlFuncoes.BtnSalvar">
+            <summary>
+            Botão para salvar o formulário atual.
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlFuncoes.BtnEditar">
+            <summary>
+            Botão para editar o item do formulário atual.
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlFuncoes.BtnExcluir">
+            <summary>
+            Botão para excluir item do formulário atual.
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.UserControlFuncoes.BtnFechar">
+            <summary>
+            Botão para fechar o formulário atual.
             </summary>
         </member>
         <member name="T:PizzariaDoZe.ApplicationConfiguration">

@@ -35,6 +35,37 @@ namespace PizzariaDoZe
             Funcoes.AjustaResourcesControl(this);
         }
 
-       
+        private void BtnFechar_Click(object sender, EventArgs e)
+        {
+            userControlFuncoes1.BtnFechar.Click += BtnFechar_Click;
+
+            // Fecha o formulário
+            Close();
+        }
+
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+            userControlFuncoes1.BtnSalvar.Click += BtnSalvar_Click;
+
+            // Fecha o formulário
+            Close();
+        }
+
+        private void BtnEditar_Click(object sender, EventArgs e)
+        {
+            userControlFuncoes1.BtnEditar.Click += BtnEditar_Click;
+
+            // Fecha o formulário
+            Close();
+        }
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            userControlFuncoes1.BtnExcluir.Click += BtnExcluir_Click;
+
+            // Fecha o formulário
+            Close();
+        }
+
     }
 }

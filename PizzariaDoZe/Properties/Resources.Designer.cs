@@ -187,11 +187,56 @@ namespace PizzariaDoZe.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Clientes.
+        /// </summary>
+        internal static string clientesToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("clientesToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Config.
+        /// </summary>
+        internal static string configToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("configToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Endereço.
+        /// </summary>
+        internal static string enderecoToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("enderecoToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Funcionários.
+        /// </summary>
+        internal static string funcionariosToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("funcionariosToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
         /// </summary>
         internal static string GroupBoxIdioma_Text {
             get {
                 return ResourceManager.GetString("GroupBoxIdioma.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Ingredientes.
+        /// </summary>
+        internal static string ingredientesToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("ingredientesToolStripMenuItem.Text", resourceCulture);
             }
         }
         
@@ -457,11 +502,47 @@ namespace PizzariaDoZe.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Produtos.
+        /// </summary>
+        internal static string produtosToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("produtosToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Sabores.
+        /// </summary>
+        internal static string saboresToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("saboresToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Sair.
+        /// </summary>
+        internal static string sairToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("sairToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/Região.
         /// </summary>
         internal static string TabPageIdioma_Text {
             get {
                 return ResourceManager.GetString("TabPageIdioma.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Valores das Pizzas.
+        /// </summary>
+        internal static string valoresDasPizzasToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("valoresDasPizzasToolStripMenuItem.Text", resourceCulture);
             }
         }
     }

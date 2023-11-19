@@ -159,8 +159,23 @@
   <data name="BtnValores.Text" xml:space="preserve">
     <value>Valores de pizzas</value>
   </data>
+  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="configToolStripMenuItem.Text" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="enderecoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="funcionariosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Empleados</value>
+  </data>
   <data name="GroupBoxIdioma.Text" xml:space="preserve">
     <value>Idioma/Región</value>
+  </data>
+  <data name="ingredientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ingredientes</value>
   </data>
   <data name="LabelBairro.Text" xml:space="preserve">
     <value>Vecindario:</value>
@@ -249,7 +264,19 @@
   <data name="LabelValorAdc.Text" xml:space="preserve">
     <value>Valor adicional:</value>
   </data>
+  <data name="produtosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="saboresToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sabores</value>
+  </data>
+  <data name="sairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
   <data name="TabPageIdioma.Text" xml:space="preserve">
     <value>Idioma/Región</value>
+  </data>
+  <data name="valoresDasPizzasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Valores de pizzas</value>
   </data>
 </root>

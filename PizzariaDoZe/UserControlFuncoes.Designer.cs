@@ -85,10 +85,21 @@
         }
 
         #endregion
-
-        private Button BtnSalvar;
-        private Button BtnEditar;
-        private Button BtnExcluir;
-        private Button BtnFechar;
+        /// <summary>
+        /// Botão para salvar o formulário atual.
+        /// </summary>
+        public Button BtnSalvar;
+        /// <summary>
+        /// Botão para editar o item do formulário atual.
+        /// </summary>
+        public Button BtnEditar;
+        /// <summary>
+        /// Botão para excluir item do formulário atual.
+        /// </summary>
+        public Button BtnExcluir;
+        /// <summary>
+        /// Botão para fechar o formulário atual.
+        /// </summary>
+        public Button BtnFechar;
     }
 }

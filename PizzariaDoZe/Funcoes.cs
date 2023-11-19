@@ -19,6 +19,18 @@ namespace PizzariaDoZe
             }
         }
 
+        // Os itens de menu do nosso menu suspenso fazem parte de uma Collection, ou seja,
+        // não estão diretamente em uma camada de Control e sim internamente no menu de contexto.
+        // Desta forma precisamos percorrer seus itens para poder ajustar os parâmetros via resources
+        public static void AjustaResourcesItem(ContextMenuStrip cmt)
+        {
+            ComponentResourceManager resources = new(typeof(Properties.Resources));
+            foreach (ToolStripItem c in cmt.Items)
+            {
+                resources.ApplyResources(c, c.Name);
+            }
+        }
+
         /// <summary>
         /// Altera a cor do BackGroud quando o campo ganha o foco
         /// </summary>
@@ -90,12 +102,11 @@ namespace PizzariaDoZe
                     case ComboBox:
                     case RadioButton:
                     case CheckBox:
-                        //case ButtonBase:
+                    case ButtonBase:
                         //adiciona eventos ganhar e perder o foco
                         c.Enter += new EventHandler(CampoEventoEnter!);
                         c.Leave += new EventHandler(CampoEventoLeave!);
                         break;
-
                 }
             }
         }

@@ -10,7 +10,7 @@ namespace PizzariaDoZe
         readonly FormProduto formProduto = new();
         readonly FormLogin formLogin = new();
         FormConfiguracoes formConfiguracoes = new();
-        readonly UserControlFuncoes userControlFuncoes = new();
+        // readonly UserControlFuncoes userControlFuncoes = new();
 
         /// <summary>
         /// Inicializa o formulário principal
@@ -19,6 +19,7 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            Funcoes.AjustaResourcesItem(contextMenuStripPrincipal);
             Funcoes.EventoFocoCampos(this);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
@@ -26,7 +27,7 @@ namespace PizzariaDoZe
         private void BtnFuncionarios_Click(object sender, EventArgs e)
         {
             formFuncionario.ShowDialog();
-         //TESTE
+            //TESTE
             Funcoes.AjustaResourcesControl(this);
         }
 
@@ -76,7 +77,48 @@ namespace PizzariaDoZe
             Controls.Clear();
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            Funcoes.AjustaResourcesItem(contextMenuStripPrincipal);
         }
 
+        private void FormPrincipal_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+                notifyIconSystemTray.Visible = true;
+
+                notifyIconSystemTray.ShowBalloonTip(1000);
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIconSystemTray.Visible = false;
+            }
+        }
+
+        private void abrirAplicacaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+        }
+
+        private void encerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Código para encerrar a aplicação
+            Application.Exit();
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Exibe uma caixa de diálogo com informações sobre o aplicativo
+            string mensagemSobre = "Pizzaria do Zé\nVersão 1.0\nDesenvolvido por @azzdud\n© 2023 @azzdud";
+            MessageBox.Show(mensagemSobre, "Sobre", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void notifyIconSystemTray_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Normal;
+            notifyIconSystemTray.Visible = false;
+        }
     }
 }

@@ -19,6 +19,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzariaDoZe.DAO\PizzariaDoZe.DAO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
