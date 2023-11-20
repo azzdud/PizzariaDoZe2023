@@ -10,10 +10,10 @@ namespace PizzariaDoZe.DAO
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public Ingrediente(int id = 0, string nome = "")
+        public Ingrediente(int id_ingrediente = 0, string descricao_ingrediente = "")
         {
-            Id = id;
-            Nome = nome;
+            Id = id_ingrediente;
+            Nome = descricao_ingrediente;
         }
     }
 }

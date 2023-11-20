@@ -34,6 +34,7 @@
             TextBoxID = new TextBox();
             LabelID = new Label();
             userControlFuncoes = new UserControlFuncoes();
+            btnSalvar = new Button();
             PanelCadastro.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,6 +68,7 @@
             // 
             // TextBoxID
             // 
+            TextBoxID.Enabled = false;
             TextBoxID.Location = new Point(14, 45);
             TextBoxID.Name = "TextBoxID";
             TextBoxID.Size = new Size(147, 26);
@@ -83,16 +85,28 @@
             // 
             // userControlFuncoes
             // 
-            userControlFuncoes.Location = new Point(12, 114);
+            userControlFuncoes.Location = new Point(15, 114);
             userControlFuncoes.Name = "userControlFuncoes";
             userControlFuncoes.Size = new Size(631, 151);
             userControlFuncoes.TabIndex = 2;
+            userControlFuncoes.Click += BtnSalvar_Click;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Location = new Point(43, 138);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(103, 77);
+            btnSalvar.TabIndex = 3;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += BtnSalvar_Click;
             // 
             // FormIngrediente
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(590, 226);
+            Controls.Add(btnSalvar);
             Controls.Add(userControlFuncoes);
             Controls.Add(PanelCadastro);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -116,5 +130,6 @@
         private TextBox TextBoxID;
         private Label LabelID;
         private UserControlFuncoes userControlFuncoes;
+        private Button btnSalvar;
     }
 }

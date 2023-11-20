@@ -10,8 +10,6 @@ namespace PizzariaDoZe
         [STAThread]
         static void Main()
         {
-            // No .NET 2.1 ou posterior os provedores não são mais registrados automaticamente no DbProviderFactories
-            // Após instalar os pacotes via NuGet, realizar o registro manualmente no DbProviderFactories
             DbProviderFactories.RegisterFactory("System.Data.SqlClient", System.Data.SqlClient.SqlClientFactory.Instance);
             DbProviderFactories.RegisterFactory("MySql.Data.MySqlClient", MySql.Data.MySqlClient.MySqlClientFactory.Instance);
 

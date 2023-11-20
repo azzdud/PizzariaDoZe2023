@@ -1,4 +1,5 @@
 ﻿using PizzariaDoZe.DAO;
+using System.Configuration;
 
 namespace PizzariaDoZe
 {
@@ -14,10 +15,13 @@ namespace PizzariaDoZe
         /// </summary>
         public FormIngrediente()
         {
+            string provider = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
+            string strConnection = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
             Funcoes.EventoFocoCampos(this);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            dao = new IngredienteDAO(provider, strConnection);
         }
 
         private void FormIngrediente_Load(object sender, EventArgs e)
@@ -27,7 +31,7 @@ namespace PizzariaDoZe
             Funcoes.AjustaResourcesControl(this);
         }
 
-        private void ButtonSalvar_Click(object? sender, EventArgs e)
+        private void BtnSalvar_Click(object? sender, EventArgs e)
         {
             //Instância e Preenche o objeto com os dados da view
             var ingrediente = new Ingrediente()
@@ -46,6 +50,11 @@ namespace PizzariaDoZe
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void userControlFuncoes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
