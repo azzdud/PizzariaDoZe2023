@@ -45,16 +45,12 @@ namespace PizzariaDoZe
                 // chama o método para inserir da camada model
                 dao.Inserir(ingrediente);
                 MessageBox.Show("Dados inseridos com sucesso!");
+                Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void userControlFuncoes_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
