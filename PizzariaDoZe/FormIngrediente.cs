@@ -1,5 +1,6 @@
 ﻿using PizzariaDoZe.DAO;
 using System.Configuration;
+using System.Diagnostics;
 
 namespace PizzariaDoZe
 {
@@ -51,6 +52,16 @@ namespace PizzariaDoZe
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void ButtonPdfCompleto_Click(object sender, EventArgs e)
+        {
+            // escolhe onde salvar
+            string pathArquivo = ClassGeraPdf.pathArquivo("RelIngredientes");
+            // gera o pdf
+            ClassGeraPdf.PdfIngrediente(pathArquivo, 0);
+            // abre o pdf gerado
+            _ = new Process { StartInfo = new ProcessStartInfo(pathArquivo) { UseShellExecute = true } }.Start();
         }
     }
 }

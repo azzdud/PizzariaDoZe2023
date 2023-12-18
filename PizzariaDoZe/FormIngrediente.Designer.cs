@@ -35,6 +35,7 @@
             LabelID = new Label();
             userControlFuncoes = new UserControlFuncoes();
             btnSalvar = new Button();
+            ButtonPdfCompleto = new Button();
             PanelCadastro.SuspendLayout();
             SuspendLayout();
             // 
@@ -101,11 +102,22 @@
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += BtnSalvar_Click;
             // 
+            // ButtonPdfCompleto
+            // 
+            ButtonPdfCompleto.Location = new Point(530, 138);
+            ButtonPdfCompleto.Name = "ButtonPdfCompleto";
+            ButtonPdfCompleto.Size = new Size(54, 44);
+            ButtonPdfCompleto.TabIndex = 10;
+            ButtonPdfCompleto.Text = "PDF";
+            ButtonPdfCompleto.UseVisualStyleBackColor = true;
+            ButtonPdfCompleto.Click += ButtonPdfCompleto_Click;
+            // 
             // FormIngrediente
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(590, 226);
+            Controls.Add(ButtonPdfCompleto);
             Controls.Add(btnSalvar);
             Controls.Add(userControlFuncoes);
             Controls.Add(PanelCadastro);
@@ -131,5 +143,6 @@
         private Label LabelID;
         private UserControlFuncoes userControlFuncoes;
         private Button btnSalvar;
+        private Button ButtonPdfCompleto;
     }
 }

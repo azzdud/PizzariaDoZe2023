@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             PanelCadastro = new Panel();
+            ListBoxTipo = new ListBox();
+            ListBoxCategoria = new ListBox();
+            CheckedListBoxIngredientes = new CheckedListBox();
             LabelFoto = new Label();
             PictureBoxFoto = new PictureBox();
-            CheckedListBoxIngredientes = new CheckedListBox();
-            ComboBoxTipo = new ComboBox();
             LabelTipo = new Label();
-            ComboBoxCategoria = new ComboBox();
             LabelCategoria = new Label();
             TextBoxNome = new TextBox();
             LabelNome = new Label();
@@ -42,6 +42,8 @@
             LabelIngredientes = new Label();
             LabelID = new Label();
             userControlFuncoes1 = new UserControlFuncoes();
+            BtnSalvar = new Button();
+            ButtonPdfCompleto = new Button();
             PanelCadastro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PictureBoxFoto).BeginInit();
             SuspendLayout();
@@ -49,12 +51,12 @@
             // PanelCadastro
             // 
             PanelCadastro.BackColor = Color.LightBlue;
+            PanelCadastro.Controls.Add(ListBoxTipo);
+            PanelCadastro.Controls.Add(ListBoxCategoria);
+            PanelCadastro.Controls.Add(CheckedListBoxIngredientes);
             PanelCadastro.Controls.Add(LabelFoto);
             PanelCadastro.Controls.Add(PictureBoxFoto);
-            PanelCadastro.Controls.Add(CheckedListBoxIngredientes);
-            PanelCadastro.Controls.Add(ComboBoxTipo);
             PanelCadastro.Controls.Add(LabelTipo);
-            PanelCadastro.Controls.Add(ComboBoxCategoria);
             PanelCadastro.Controls.Add(LabelCategoria);
             PanelCadastro.Controls.Add(TextBoxNome);
             PanelCadastro.Controls.Add(LabelNome);
@@ -65,6 +67,34 @@
             PanelCadastro.Name = "PanelCadastro";
             PanelCadastro.Size = new Size(624, 405);
             PanelCadastro.TabIndex = 2;
+            // 
+            // ListBoxTipo
+            // 
+            ListBoxTipo.FormattingEnabled = true;
+            ListBoxTipo.ItemHeight = 19;
+            ListBoxTipo.Items.AddRange(new object[] { "Doce", "Salgada" });
+            ListBoxTipo.Location = new Point(209, 115);
+            ListBoxTipo.Name = "ListBoxTipo";
+            ListBoxTipo.Size = new Size(133, 42);
+            ListBoxTipo.TabIndex = 8;
+            // 
+            // ListBoxCategoria
+            // 
+            ListBoxCategoria.FormattingEnabled = true;
+            ListBoxCategoria.ItemHeight = 19;
+            ListBoxCategoria.Items.AddRange(new object[] { "Tradicional", "Especial" });
+            ListBoxCategoria.Location = new Point(14, 115);
+            ListBoxCategoria.Name = "ListBoxCategoria";
+            ListBoxCategoria.Size = new Size(133, 42);
+            ListBoxCategoria.TabIndex = 7;
+            // 
+            // CheckedListBoxIngredientes
+            // 
+            CheckedListBoxIngredientes.FormattingEnabled = true;
+            CheckedListBoxIngredientes.Location = new Point(384, 45);
+            CheckedListBoxIngredientes.Name = "CheckedListBoxIngredientes";
+            CheckedListBoxIngredientes.Size = new Size(223, 340);
+            CheckedListBoxIngredientes.TabIndex = 6;
             // 
             // LabelFoto
             // 
@@ -83,23 +113,6 @@
             PictureBoxFoto.TabIndex = 4;
             PictureBoxFoto.TabStop = false;
             // 
-            // CheckedListBoxIngredientes
-            // 
-            CheckedListBoxIngredientes.FormattingEnabled = true;
-            CheckedListBoxIngredientes.Location = new Point(384, 45);
-            CheckedListBoxIngredientes.Name = "CheckedListBoxIngredientes";
-            CheckedListBoxIngredientes.Size = new Size(220, 340);
-            CheckedListBoxIngredientes.TabIndex = 4;
-            // 
-            // ComboBoxTipo
-            // 
-            ComboBoxTipo.FormattingEnabled = true;
-            ComboBoxTipo.Items.AddRange(new object[] { "Doce", "Salgada" });
-            ComboBoxTipo.Location = new Point(209, 115);
-            ComboBoxTipo.Name = "ComboBoxTipo";
-            ComboBoxTipo.Size = new Size(149, 27);
-            ComboBoxTipo.TabIndex = 3;
-            // 
             // LabelTipo
             // 
             LabelTipo.AutoSize = true;
@@ -108,15 +121,6 @@
             LabelTipo.Size = new Size(42, 20);
             LabelTipo.TabIndex = 0;
             LabelTipo.Text = "Tipo:";
-            // 
-            // ComboBoxCategoria
-            // 
-            ComboBoxCategoria.FormattingEnabled = true;
-            ComboBoxCategoria.Items.AddRange(new object[] { "Tradicional", "Especial" });
-            ComboBoxCategoria.Location = new Point(14, 115);
-            ComboBoxCategoria.Name = "ComboBoxCategoria";
-            ComboBoxCategoria.Size = new Size(176, 27);
-            ComboBoxCategoria.TabIndex = 2;
             // 
             // LabelCategoria
             // 
@@ -175,11 +179,33 @@
             userControlFuncoes1.Size = new Size(534, 125);
             userControlFuncoes1.TabIndex = 3;
             // 
+            // BtnSalvar
+            // 
+            BtnSalvar.Location = new Point(80, 432);
+            BtnSalvar.Name = "BtnSalvar";
+            BtnSalvar.Size = new Size(104, 76);
+            BtnSalvar.TabIndex = 9;
+            BtnSalvar.Text = "Salvar";
+            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.Click += BtnSalvar_Click;
+            // 
+            // ButtonPdfCompleto
+            // 
+            ButtonPdfCompleto.Location = new Point(580, 432);
+            ButtonPdfCompleto.Name = "ButtonPdfCompleto";
+            ButtonPdfCompleto.Size = new Size(54, 44);
+            ButtonPdfCompleto.TabIndex = 9;
+            ButtonPdfCompleto.Text = "PDF";
+            ButtonPdfCompleto.UseVisualStyleBackColor = true;
+            ButtonPdfCompleto.Click += ButtonPdfCompleto_Click;
+            // 
             // FormSabores
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(646, 525);
+            Controls.Add(ButtonPdfCompleto);
+            Controls.Add(BtnSalvar);
             Controls.Add(PanelCadastro);
             Controls.Add(userControlFuncoes1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -199,9 +225,7 @@
         #endregion
 
         private Panel PanelCadastro;
-        private ComboBox ComboBoxTipo;
         private Label LabelTipo;
-        private ComboBox ComboBoxCategoria;
         private Label LabelCategoria;
         private TextBox TextBoxNome;
         private Label LabelNome;
@@ -209,8 +233,12 @@
         private Label LabelID;
         private Label LabelFoto;
         private PictureBox PictureBoxFoto;
-        private CheckedListBox CheckedListBoxIngredientes;
         private Label LabelIngredientes;
         private UserControlFuncoes userControlFuncoes1;
+        private CheckedListBox CheckedListBoxIngredientes;
+        private ListBox ListBoxCategoria;
+        private ListBox ListBoxTipo;
+        private Button BtnSalvar;
+        private Button ButtonPdfCompleto;
     }
 }

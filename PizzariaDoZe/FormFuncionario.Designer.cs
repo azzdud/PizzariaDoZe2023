@@ -52,6 +52,12 @@
             LabelID = new Label();
             userControlFuncoes1 = new UserControlFuncoes();
             userControlEndereco1 = new UserControlEndereco();
+            TextBoxComplemento = new TextBox();
+            LabelComplemento = new Label();
+            TextBoxNumero = new TextBox();
+            LabelNumero = new Label();
+            BtnSalvar = new Button();
+            ButtonPdfCompleto = new Button();
             PanelCadastro.SuspendLayout();
             SuspendLayout();
             // 
@@ -191,10 +197,50 @@
             resources.ApplyResources(userControlEndereco1, "userControlEndereco1");
             userControlEndereco1.Name = "userControlEndereco1";
             // 
+            // TextBoxComplemento
+            // 
+            resources.ApplyResources(TextBoxComplemento, "TextBoxComplemento");
+            TextBoxComplemento.Name = "TextBoxComplemento";
+            // 
+            // LabelComplemento
+            // 
+            resources.ApplyResources(LabelComplemento, "LabelComplemento");
+            LabelComplemento.Name = "LabelComplemento";
+            // 
+            // TextBoxNumero
+            // 
+            resources.ApplyResources(TextBoxNumero, "TextBoxNumero");
+            TextBoxNumero.Name = "TextBoxNumero";
+            // 
+            // LabelNumero
+            // 
+            resources.ApplyResources(LabelNumero, "LabelNumero");
+            LabelNumero.Name = "LabelNumero";
+            // 
+            // BtnSalvar
+            // 
+            resources.ApplyResources(BtnSalvar, "BtnSalvar");
+            BtnSalvar.Name = "BtnSalvar";
+            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.Click += BtnSalvar_Click;
+            // 
+            // ButtonPdfCompleto
+            // 
+            resources.ApplyResources(ButtonPdfCompleto, "ButtonPdfCompleto");
+            ButtonPdfCompleto.Name = "ButtonPdfCompleto";
+            ButtonPdfCompleto.UseVisualStyleBackColor = true;
+            ButtonPdfCompleto.Click += ButtonPdfCompleto_Click;
+            // 
             // FormFuncionario
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(ButtonPdfCompleto);
+            Controls.Add(BtnSalvar);
+            Controls.Add(TextBoxComplemento);
+            Controls.Add(LabelComplemento);
+            Controls.Add(TextBoxNumero);
+            Controls.Add(LabelNumero);
             Controls.Add(userControlEndereco1);
             Controls.Add(userControlFuncoes1);
             Controls.Add(PanelCadastro);
@@ -207,6 +253,7 @@
             PanelCadastro.ResumeLayout(false);
             PanelCadastro.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -234,5 +281,11 @@
         private Label LabelObservacoes;
         private UserControlFuncoes userControlFuncoes1;
         private UserControlEndereco userControlEndereco1;
+        private TextBox TextBoxComplemento;
+        private Label LabelComplemento;
+        private TextBox TextBoxNumero;
+        private Label LabelNumero;
+        private Button BtnSalvar;
+        private Button ButtonPdfCompleto;
     }
 }

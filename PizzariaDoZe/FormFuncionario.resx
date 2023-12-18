@@ -119,10 +119,10 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TextBoxMatricula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 45</value>
+    <value>349, 45</value>
   </data>
   <data name="TextBoxMatricula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 26</value>
+    <value>181, 26</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBoxMatricula.TabIndex" type="System.Int32, mscorlib">
@@ -144,7 +144,7 @@
     <value>True</value>
   </data>
   <data name="LabelMatricula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 22</value>
+    <value>349, 22</value>
   </data>
   <data name="LabelMatricula.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 20</value>
@@ -168,10 +168,10 @@
     <value>1</value>
   </data>
   <data name="TextBoxCPF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 45</value>
+    <value>100, 45</value>
   </data>
   <data name="TextBoxCPF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 26</value>
+    <value>230, 26</value>
   </data>
   <data name="TextBoxCPF.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -192,7 +192,7 @@
     <value>True</value>
   </data>
   <data name="LabelCPF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 22</value>
+    <value>100, 22</value>
   </data>
   <data name="LabelCPF.Size" type="System.Drawing.Size, System.Drawing">
     <value>36, 20</value>
@@ -219,7 +219,7 @@
     <value>207, 182</value>
   </data>
   <data name="TextBoxEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 26</value>
+    <value>159, 26</value>
   </data>
   <data name="TextBoxEmail.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -264,10 +264,10 @@
     <value>5</value>
   </data>
   <data name="TextBoxSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 182</value>
+    <value>384, 182</value>
   </data>
   <data name="TextBoxSenha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 26</value>
+    <value>146, 26</value>
   </data>
   <data name="TextBoxSenha.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -288,7 +288,7 @@
     <value>True</value>
   </data>
   <data name="LabelSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 159</value>
+    <value>384, 159</value>
   </data>
   <data name="LabelSenha.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 20</value>
@@ -558,7 +558,7 @@
     <value>14, 45</value>
   </data>
   <data name="TextBoxID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 26</value>
+    <value>69, 26</value>
   </data>
   <data name="TextBoxID.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -621,10 +621,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PanelCadastro.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
   </data>
   <data name="userControlFuncoes1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>677, 322</value>
+    <value>586, 322</value>
   </data>
   <data name="userControlFuncoes1.Size" type="System.Drawing.Size, System.Drawing">
     <value>534, 131</value>
@@ -642,13 +642,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;userControlFuncoes1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
   <data name="userControlEndereco1.Location" type="System.Drawing.Point, System.Drawing">
     <value>563, 12</value>
   </data>
   <data name="userControlEndereco1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 304</value>
+    <value>631, 227</value>
   </data>
   <data name="userControlEndereco1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -663,6 +663,150 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;userControlEndereco1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TextBoxComplemento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 265</value>
+  </data>
+  <data name="TextBoxComplemento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 26</value>
+  </data>
+  <data name="TextBoxComplemento.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TextBoxComplemento.Name" xml:space="preserve">
+    <value>TextBoxComplemento</value>
+  </data>
+  <data name="&gt;&gt;TextBoxComplemento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxComplemento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBoxComplemento.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelComplemento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelComplemento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 242</value>
+  </data>
+  <data name="LabelComplemento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="LabelComplemento.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LabelComplemento.Text" xml:space="preserve">
+    <value>Complemento:</value>
+  </data>
+  <data name="&gt;&gt;LabelComplemento.Name" xml:space="preserve">
+    <value>LabelComplemento</value>
+  </data>
+  <data name="&gt;&gt;LabelComplemento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelComplemento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelComplemento.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TextBoxNumero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 265</value>
+  </data>
+  <data name="TextBoxNumero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 26</value>
+  </data>
+  <data name="TextBoxNumero.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TextBoxNumero.Name" xml:space="preserve">
+    <value>TextBoxNumero</value>
+  </data>
+  <data name="&gt;&gt;TextBoxNumero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxNumero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBoxNumero.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelNumero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelNumero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 242</value>
+  </data>
+  <data name="LabelNumero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="LabelNumero.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LabelNumero.Text" xml:space="preserve">
+    <value>Número:</value>
+  </data>
+  <data name="&gt;&gt;LabelNumero.Name" xml:space="preserve">
+    <value>LabelNumero</value>
+  </data>
+  <data name="&gt;&gt;LabelNumero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNumero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelNumero.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 348</value>
+  </data>
+  <data name="BtnSalvar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="BtnSalvar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnSalvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="&gt;&gt;BtnSalvar.Name" xml:space="preserve">
+    <value>BtnSalvar</value>
+  </data>
+  <data name="&gt;&gt;BtnSalvar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSalvar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSalvar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonPdfCompleto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 348</value>
+  </data>
+  <data name="ButtonPdfCompleto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 44</value>
+  </data>
+  <data name="ButtonPdfCompleto.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ButtonPdfCompleto.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="&gt;&gt;ButtonPdfCompleto.Name" xml:space="preserve">
+    <value>ButtonPdfCompleto</value>
+  </data>
+  <data name="&gt;&gt;ButtonPdfCompleto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPdfCompleto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPdfCompleto.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

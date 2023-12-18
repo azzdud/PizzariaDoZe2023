@@ -40,6 +40,7 @@
             LabelTipo = new Label();
             LabelID = new Label();
             userControlFuncoes1 = new UserControlFuncoes();
+            BtnSalvar = new Button();
             PanelProduto.SuspendLayout();
             SuspendLayout();
             // 
@@ -153,11 +154,23 @@
             userControlFuncoes1.Size = new Size(524, 119);
             userControlFuncoes1.TabIndex = 5;
             // 
+            // BtnSalvar
+            // 
+            BtnSalvar.ImeMode = ImeMode.NoControl;
+            BtnSalvar.Location = new Point(39, 297);
+            BtnSalvar.Name = "BtnSalvar";
+            BtnSalvar.Size = new Size(104, 76);
+            BtnSalvar.TabIndex = 11;
+            BtnSalvar.Text = "Salvar";
+            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.Click += BtnSalvar1_Click;
+            // 
             // FormProduto
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(564, 386);
+            Controls.Add(BtnSalvar);
             Controls.Add(PanelProduto);
             Controls.Add(userControlFuncoes1);
             KeyPreview = true;
@@ -186,5 +199,6 @@
         private Label LabelID;
         private ComboBox ComboBoxML;
         private UserControlFuncoes userControlFuncoes1;
+        private Button BtnSalvar;
     }
 }

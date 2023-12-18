@@ -5,6 +5,7 @@ E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.AssemblyInfoInputs.cache
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.AssemblyInfo.cs
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.csproj.CoreCompileInputs.cache
+E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.sourcelink.json
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\refint\PizzariaDoZe.DAO.dll
 E:\UNIPLAC\Trabalhos\4° Semestre\Dev de Sistemas\PizzariaDoZe\PizzariaDoZe.DAO\obj\Debug\net7.0\PizzariaDoZe.DAO.pdb

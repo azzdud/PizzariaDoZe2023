@@ -58,6 +58,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:PizzariaDoZe.FormEndereco.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormEndereco.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormEndereco.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:PizzariaDoZe.FormFuncionario">
             <summary>
             Inicializa o modal dos Funcionários
@@ -134,6 +151,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:PizzariaDoZe.FormLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:PizzariaDoZe.FormPedidos.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.FormPedidos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.FormPedidos.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

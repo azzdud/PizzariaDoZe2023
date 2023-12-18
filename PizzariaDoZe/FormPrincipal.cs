@@ -8,8 +8,10 @@ namespace PizzariaDoZe
         readonly FormSabores formSabores = new();
         readonly FormValores formValores = new();
         readonly FormProduto formProduto = new();
+        readonly FormEndereco formEndereco = new();
         readonly FormLogin formLogin = new();
         FormConfiguracoes formConfiguracoes = new();
+        FormPedidos formPedidos = new();
         // readonly UserControlFuncoes userControlFuncoes = new();
 
         /// <summary>
@@ -119,6 +121,16 @@ namespace PizzariaDoZe
             Show();
             WindowState = FormWindowState.Normal;
             notifyIconSystemTray.Visible = false;
+        }
+
+        private void BtnEndereco_Click(object sender, EventArgs e)
+        {
+            formEndereco.ShowDialog();
+        }
+
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            formPedidos.ShowDialog();
         }
     }
 }

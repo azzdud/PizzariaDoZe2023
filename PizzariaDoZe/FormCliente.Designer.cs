@@ -41,6 +41,12 @@
             LabelID = new Label();
             userControlEndereco1 = new UserControlEndereco();
             userControlFuncoes1 = new UserControlFuncoes();
+            BtnSalvar = new Button();
+            TextBoxNumero = new TextBox();
+            LabelNumero = new Label();
+            TextBoxComplemento = new TextBox();
+            LabelComplemento = new Label();
+            ButtonPdfCompleto = new Button();
             PanelCliente.SuspendLayout();
             SuspendLayout();
             // 
@@ -146,21 +152,79 @@
             // 
             userControlEndereco1.Location = new Point(440, 12);
             userControlEndereco1.Name = "userControlEndereco1";
-            userControlEndereco1.Size = new Size(639, 305);
+            userControlEndereco1.Size = new Size(639, 225);
             userControlEndereco1.TabIndex = 5;
             // 
             // userControlFuncoes1
             // 
-            userControlFuncoes1.Location = new Point(523, 309);
+            userControlFuncoes1.Location = new Point(463, 309);
             userControlFuncoes1.Name = "userControlFuncoes1";
             userControlFuncoes1.Size = new Size(527, 121);
             userControlFuncoes1.TabIndex = 6;
+            // 
+            // BtnSalvar
+            // 
+            BtnSalvar.Location = new Point(489, 334);
+            BtnSalvar.Name = "BtnSalvar";
+            BtnSalvar.Size = new Size(104, 76);
+            BtnSalvar.TabIndex = 7;
+            BtnSalvar.Text = "Salvar";
+            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.Click += BtnSalvar_Click;
+            // 
+            // TextBoxNumero
+            // 
+            TextBoxNumero.Location = new Point(463, 277);
+            TextBoxNumero.Name = "TextBoxNumero";
+            TextBoxNumero.Size = new Size(176, 26);
+            TextBoxNumero.TabIndex = 6;
+            // 
+            // LabelNumero
+            // 
+            LabelNumero.AutoSize = true;
+            LabelNumero.Location = new Point(463, 254);
+            LabelNumero.Name = "LabelNumero";
+            LabelNumero.Size = new Size(66, 20);
+            LabelNumero.TabIndex = 5;
+            LabelNumero.Text = "Número:";
+            // 
+            // TextBoxComplemento
+            // 
+            TextBoxComplemento.Location = new Point(681, 277);
+            TextBoxComplemento.Name = "TextBoxComplemento";
+            TextBoxComplemento.Size = new Size(375, 26);
+            TextBoxComplemento.TabIndex = 9;
+            // 
+            // LabelComplemento
+            // 
+            LabelComplemento.AutoSize = true;
+            LabelComplemento.Location = new Point(681, 254);
+            LabelComplemento.Name = "LabelComplemento";
+            LabelComplemento.Size = new Size(107, 20);
+            LabelComplemento.TabIndex = 8;
+            LabelComplemento.Text = "Complemento:";
+            // 
+            // ButtonPdfCompleto
+            // 
+            ButtonPdfCompleto.Location = new Point(990, 334);
+            ButtonPdfCompleto.Name = "ButtonPdfCompleto";
+            ButtonPdfCompleto.Size = new Size(54, 44);
+            ButtonPdfCompleto.TabIndex = 11;
+            ButtonPdfCompleto.Text = "PDF";
+            ButtonPdfCompleto.UseVisualStyleBackColor = true;
+            ButtonPdfCompleto.Click += ButtonPdfCompleto_Click;
             // 
             // FormCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1077, 451);
+            Controls.Add(ButtonPdfCompleto);
+            Controls.Add(TextBoxComplemento);
+            Controls.Add(LabelComplemento);
+            Controls.Add(TextBoxNumero);
+            Controls.Add(LabelNumero);
+            Controls.Add(BtnSalvar);
             Controls.Add(userControlFuncoes1);
             Controls.Add(userControlEndereco1);
             Controls.Add(PanelCliente);
@@ -175,6 +239,7 @@
             PanelCliente.ResumeLayout(false);
             PanelCliente.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -192,5 +257,11 @@
         private Label LabelID;
         private UserControlEndereco userControlEndereco1;
         private UserControlFuncoes userControlFuncoes1;
+        private Button BtnSalvar;
+        private TextBox TextBoxNumero;
+        private Label LabelNumero;
+        private TextBox TextBoxComplemento;
+        private Label LabelComplemento;
+        private Button ButtonPdfCompleto;
     }
 }

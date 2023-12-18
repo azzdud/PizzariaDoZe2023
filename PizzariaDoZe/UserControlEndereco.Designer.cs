@@ -38,14 +38,10 @@
             LabelPais = new Label();
             TextBoxLogradouro = new TextBox();
             LabelLogradouro = new Label();
-            TextBoxNome = new TextBox();
+            TextBoxCEP = new TextBox();
             LabelCEP = new Label();
             TextBoxID = new TextBox();
             LabelID = new Label();
-            TextBoxComplemento = new TextBox();
-            LabelComplemento = new Label();
-            LabelNumero = new Label();
-            TextBoxNumero = new TextBox();
             SuspendLayout();
             // 
             // ComboBoxCidade
@@ -131,12 +127,12 @@
             LabelLogradouro.TabIndex = 18;
             LabelLogradouro.Text = "Logradouro:";
             // 
-            // TextBoxNome
+            // TextBoxCEP
             // 
-            TextBoxNome.Location = new Point(169, 47);
-            TextBoxNome.Name = "TextBoxNome";
-            TextBoxNome.Size = new Size(120, 26);
-            TextBoxNome.TabIndex = 1;
+            TextBoxCEP.Location = new Point(169, 47);
+            TextBoxCEP.Name = "TextBoxCEP";
+            TextBoxCEP.Size = new Size(120, 26);
+            TextBoxCEP.TabIndex = 1;
             // 
             // LabelCEP
             // 
@@ -163,62 +159,26 @@
             LabelID.TabIndex = 14;
             LabelID.Text = "ID:";
             // 
-            // TextBoxComplemento
-            // 
-            TextBoxComplemento.Location = new Point(186, 258);
-            TextBoxComplemento.Name = "TextBoxComplemento";
-            TextBoxComplemento.Size = new Size(427, 26);
-            TextBoxComplemento.TabIndex = 8;
-            // 
-            // LabelComplemento
-            // 
-            LabelComplemento.AutoSize = true;
-            LabelComplemento.Location = new Point(186, 235);
-            LabelComplemento.Name = "LabelComplemento";
-            LabelComplemento.Size = new Size(107, 20);
-            LabelComplemento.TabIndex = 22;
-            LabelComplemento.Text = "Complemento:";
-            // 
-            // LabelNumero
-            // 
-            LabelNumero.AutoSize = true;
-            LabelNumero.Location = new Point(22, 235);
-            LabelNumero.Name = "LabelNumero";
-            LabelNumero.Size = new Size(66, 20);
-            LabelNumero.TabIndex = 25;
-            LabelNumero.Text = "Número:";
-            // 
-            // TextBoxNumero
-            // 
-            TextBoxNumero.Location = new Point(22, 258);
-            TextBoxNumero.Name = "TextBoxNumero";
-            TextBoxNumero.Size = new Size(137, 26);
-            TextBoxNumero.TabIndex = 7;
-            // 
             // UserControlEndereco
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(TextBoxNumero);
-            Controls.Add(LabelNumero);
             Controls.Add(ComboBoxCidade);
             Controls.Add(LabelCidade);
             Controls.Add(ComboBoxUF);
-            Controls.Add(LabelComplemento);
             Controls.Add(ComboBoxPais);
             Controls.Add(LabelBairro);
-            Controls.Add(TextBoxComplemento);
             Controls.Add(LabelUF);
             Controls.Add(TextBoxPais);
             Controls.Add(LabelPais);
             Controls.Add(TextBoxLogradouro);
             Controls.Add(LabelLogradouro);
-            Controls.Add(TextBoxNome);
+            Controls.Add(TextBoxCEP);
             Controls.Add(LabelCEP);
             Controls.Add(TextBoxID);
             Controls.Add(LabelID);
             Name = "UserControlEndereco";
-            Size = new Size(631, 302);
+            Size = new Size(631, 233);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -235,13 +195,9 @@
         private Label LabelPais;
         private TextBox TextBoxLogradouro;
         private Label LabelLogradouro;
-        private TextBox TextBoxNome;
+        private TextBox TextBoxCEP;
         private Label LabelCEP;
         private TextBox TextBoxID;
         private Label LabelID;
-        private TextBox TextBoxComplemento;
-        private Label LabelComplemento;
-        private Label LabelNumero;
-        private TextBox TextBoxNumero;
     }
 }

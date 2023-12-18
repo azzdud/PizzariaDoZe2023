@@ -58,6 +58,7 @@
             abrirAplicacaoToolStripMenuItem = new ToolStripMenuItem();
             encerrarToolStripMenuItem = new ToolStripMenuItem();
             sobreToolStripMenuItem = new ToolStripMenuItem();
+            btnPedidos = new Button();
             contextMenuStripPrincipal.SuspendLayout();
             contextMenuStripSystemTray.SuspendLayout();
             SuspendLayout();
@@ -80,6 +81,7 @@
             BtnEndereco.TabIndex = 1;
             BtnEndereco.Text = "Endereço";
             BtnEndereco.UseVisualStyleBackColor = true;
+            BtnEndereco.Click += BtnEndereco_Click;
             // 
             // BtnFuncionarios
             // 
@@ -265,12 +267,23 @@
             sobreToolStripMenuItem.Text = "Sobre";
             sobreToolStripMenuItem.Click += sobreToolStripMenuItem_Click;
             // 
+            // btnPedidos
+            // 
+            btnPedidos.Location = new Point(785, 12);
+            btnPedidos.Name = "btnPedidos";
+            btnPedidos.Size = new Size(156, 70);
+            btnPedidos.TabIndex = 10;
+            btnPedidos.Text = "Pedidos";
+            btnPedidos.UseVisualStyleBackColor = true;
+            btnPedidos.Click += btnPedidos_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1045, 562);
             ContextMenuStrip = contextMenuStripPrincipal;
+            Controls.Add(btnPedidos);
             Controls.Add(userControlFuncoes1);
             Controls.Add(BtnConfiguracoes);
             Controls.Add(BtnProdutos);
@@ -321,5 +334,6 @@
         private ToolStripMenuItem abrirAplicacaoToolStripMenuItem;
         private ToolStripMenuItem encerrarToolStripMenuItem;
         private ToolStripMenuItem sobreToolStripMenuItem;
+        private Button btnPedidos;
     }
 }

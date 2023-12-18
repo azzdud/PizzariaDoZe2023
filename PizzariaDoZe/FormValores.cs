@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static PizzariaDoZe.ClassEnum;
 
 namespace PizzariaDoZe
 {
@@ -31,6 +32,16 @@ namespace PizzariaDoZe
             Controls.Clear();
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+        }
+
+        private void CarregaEnumListBox()
+        {
+            //popular listBoxTipo
+            ListBoxTamanho.Items.Clear();
+            ListBoxTamanho.DataSource = Enum.GetValues(typeof(EnumValorTamanho));
+            //popular listBoxCategoria
+            ListBoxCategoria.Items.Clear();
+            ListBoxCategoria.DataSource = Enum.GetValues(typeof(EnumSaborCategoria));
         }
     }
 }

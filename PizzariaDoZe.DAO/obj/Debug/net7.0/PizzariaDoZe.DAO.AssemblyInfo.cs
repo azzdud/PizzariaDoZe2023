@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PizzariaDoZe.DAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3597d70b6887266136109ac1e56afcdbb2516f18")]
 [assembly: System.Reflection.AssemblyProductAttribute("PizzariaDoZe.DAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PizzariaDoZe.DAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
